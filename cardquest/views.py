@@ -19,7 +19,7 @@ class TrainerList(ListView):
     model = Trainer
     context_object_name = 'trainer'
     template_name = 'trainers.html'
-    paginate_by = 15
+    paginate_by = 9
 
 class TrainerCreateView(CreateView):
     model = Trainer
